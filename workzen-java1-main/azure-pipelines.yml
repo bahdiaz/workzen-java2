@@ -1,0 +1,39 @@
+trigger:
+- main
+
+variables:
+  azureSubscription: 'adbaa4a2-e373-4ed1-9ba9-8ee4a8a7f2a6'  # sua service connection
+  webAppName: 'rm556974'                                     # nome do seu Web App
+  vmImageName: 'nao-uso'                                     # ignorado, só pra nao quebrar
+
+pool:
+  name: Default  # usa SEU agente self-hosted
+
+stages:
+- stage: BuildAndDeploy
+  displayName: 'Build e Deploy API'
+  jobs:
+  - job: BuildAndDeployJob
+    displayName: 'Build Maven e Deploy no Azure'
+    steps:
+    - task: Maven@4
+      displayName: 'Build com Maven'
+      inputs:
+        mavenPomFile: 'pom.xml'
+        goals: 'clean package'
+        publishJUnitResults: true
+        testResultsFiles: '**/surefire-reports/TEST-*.xml'
+
+    # (opcional) ver o que foi gerado
+    - script: |
+        echo "Listando arquivos em target:"
+        dir target
+      displayName: 'Listar JAR gerado'
+
+    - task: AzureWebApp@1
+      displayName: 'Deploy JAR para Azure Web App'
+      inputs:
+        azureSubscription: $(azureSubscription)
+        appType: 'webAppLinux'
+        appName: $(webAppName)
+        package: '$(System.DefaultWorkingDirectory)/target/*.jar'
