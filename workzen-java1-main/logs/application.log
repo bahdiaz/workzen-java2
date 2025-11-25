@@ -1,0 +1,276 @@
+2025-11-23 00:08:00.334 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-23 00:08:00.344 [Thread-47] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:08:00.344 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2025-11-23 00:08:00.346 [Thread-47] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2025-11-23 00:08:00.427 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:08:00.427 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:08:00.427 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:08:00.555 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:08:00.567 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:08:00.628 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:08:00.629 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:08:00.629 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:08:00.644 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:08:00.644 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 217 ms
+2025-11-23 00:08:00.665 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:08:00.666 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2025-11-23 00:08:00.681 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@64221ed8
+2025-11-23 00:08:00.681 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2025-11-23 00:08:00.684 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:08:00.754 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:08:00.819 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:08:00.825 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 2411b7d9-3229-4876-8cf6-6b776eb52b2a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:08:00.847 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71fb62c5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8a61cbf, org.springframework.security.web.context.SecurityContextHolderFilter@1b4e8c74, org.springframework.security.web.header.HeaderWriterFilter@6531c117, org.springframework.web.filter.CorsFilter@36839154, org.springframework.security.web.authentication.logout.LogoutFilter@7fe97c60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@450a28fb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2ed87034, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ef8299, org.springframework.security.web.session.SessionManagementFilter@15b56f15, org.springframework.security.web.access.ExceptionTranslationFilter@59b0f54b, org.springframework.security.web.access.intercept.AuthorizationFilter@6b64dd0]
+2025-11-23 00:08:00.890 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:08:00.897 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:08:00.899 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.49 seconds (process running for 1414.647)
+2025-11-23 00:08:00.899 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:08:28.914 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-23 00:08:28.914 [Thread-51] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:08:28.914 [Thread-51] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+2025-11-23 00:08:28.921 [Thread-51] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+2025-11-23 00:08:28.997 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:08:28.997 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:08:28.997 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:08:29.102 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:08:29.110 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:08:29.164 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:08:29.164 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:08:29.164 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:08:29.172 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:08:29.172 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 172 ms
+2025-11-23 00:08:29.194 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:08:29.195 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+2025-11-23 00:08:29.208 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-14 - Added connection org.postgresql.jdbc.PgConnection@5f0783b0
+2025-11-23 00:08:29.208 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+2025-11-23 00:08:29.211 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:08:29.270 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:08:29.334 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:08:29.337 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 79ad9fa8-4a16-4b09-b57b-a34baaa0f7c6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:08:29.368 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@606a7daa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34aad466, org.springframework.security.web.context.SecurityContextHolderFilter@32c75233, org.springframework.security.web.header.HeaderWriterFilter@728ce050, org.springframework.web.filter.CorsFilter@7a4a4c03, org.springframework.security.web.authentication.logout.LogoutFilter@521a60f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55738451, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@406870cf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76b068c6, org.springframework.security.web.session.SessionManagementFilter@60bf513f, org.springframework.security.web.access.ExceptionTranslationFilter@350a5b29, org.springframework.security.web.access.intercept.AuthorizationFilter@6adcc541]
+2025-11-23 00:08:29.399 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:08:29.404 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:08:29.406 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.43 seconds (process running for 1443.154)
+2025-11-23 00:08:29.406 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:09:13.473 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23 00:09:13.473 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-23 00:09:13.474 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-23 00:09:13.475 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/face/analyse' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-23 00:09:13.884 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:10:16.064 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:11:24.197 [http-nio-8080-exec-3] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:12:36.571 [http-nio-8080-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:13:50.290 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:14:13.085 [http-nio-8080-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:14:50.491 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:15:12.979 [http-nio-8080-exec-7] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:16:08.873 [http-nio-8080-exec-9] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:16:43.455 [http-nio-8080-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.ai.fiap.face.recognization.exception.BusinessException: Erro ao comunicar com API de análise facial: Erro ao analisar imagem: 500 Internal Server Error from POST http://localhost:8000/face/analyze]
+2025-11-23 00:19:33.239 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.orm.jpa.JpaSystemException: Unable to access lob stream]
+2025-11-23 00:20:10.774 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-11-23 00:20:10.784 [Thread-55] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:10.786 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+2025-11-23 00:20:10.789 [Thread-55] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+2025-11-23 00:20:10.890 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:20:10.890 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:20:10.891 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:20:11.047 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:20:11.060 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:20:11.138 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:20:11.138 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:20:11.138 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:20:11.158 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:20:11.158 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 266 ms
+2025-11-23 00:20:11.188 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:20:11.188 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+2025-11-23 00:20:11.204 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-15 - Added connection org.postgresql.jdbc.PgConnection@34b9ed5d
+2025-11-23 00:20:11.205 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+2025-11-23 00:20:11.209 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:20:11.284 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:11.360 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:20:11.362 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 1ffc2924-8a39-489c-afa3-295d93909b7d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:20:11.400 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1f7fff93, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a40940, org.springframework.security.web.context.SecurityContextHolderFilter@1dfe46aa, org.springframework.security.web.header.HeaderWriterFilter@684fbfed, org.springframework.web.filter.CorsFilter@700a7c8, org.springframework.security.web.authentication.logout.LogoutFilter@24143d9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6212ff87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77b794ff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53b93875, org.springframework.security.web.session.SessionManagementFilter@43ffe884, org.springframework.security.web.access.ExceptionTranslationFilter@81ef1bb, org.springframework.security.web.access.intercept.AuthorizationFilter@10388aaf]
+2025-11-23 00:20:11.448 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:20:11.456 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:20:11.457 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.595 seconds (process running for 2145.207)
+2025-11-23 00:20:11.457 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:20:12.878 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-23 00:20:12.880 [Thread-71] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:12.880 [Thread-71] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown initiated...
+2025-11-23 00:20:12.887 [Thread-71] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown completed.
+2025-11-23 00:20:12.978 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:20:12.978 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:20:12.978 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:20:13.106 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:20:13.118 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:20:13.168 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:20:13.168 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:20:13.168 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:20:13.188 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:20:13.188 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 210 ms
+2025-11-23 00:20:13.209 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:20:13.209 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Starting...
+2025-11-23 00:20:13.230 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-16 - Added connection org.postgresql.jdbc.PgConnection@2b10e6c6
+2025-11-23 00:20:13.230 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Start completed.
+2025-11-23 00:20:13.234 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:20:13.311 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:13.370 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:20:13.370 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 59c33a88-a43c-4d57-ad0f-d9e2b009fd28
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:20:13.404 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2420432, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69dba900, org.springframework.security.web.context.SecurityContextHolderFilter@4a6ee13, org.springframework.security.web.header.HeaderWriterFilter@785963d9, org.springframework.web.filter.CorsFilter@5d33f3c4, org.springframework.security.web.authentication.logout.LogoutFilter@5fb17770, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e631fb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d97fe06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@32c28b5a, org.springframework.security.web.session.SessionManagementFilter@7a196d66, org.springframework.security.web.access.ExceptionTranslationFilter@281846f1, org.springframework.security.web.access.intercept.AuthorizationFilter@4934c555]
+2025-11-23 00:20:13.433 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:20:13.439 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:20:13.440 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.484 seconds (process running for 2147.188)
+2025-11-23 00:20:13.441 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:20:16.924 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-23 00:20:16.928 [Thread-75] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:16.928 [Thread-75] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
+2025-11-23 00:20:16.931 [Thread-75] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
+2025-11-23 00:20:17.012 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:20:17.012 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:20:17.012 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:20:17.147 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:20:17.163 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:20:17.220 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:20:17.220 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:20:17.220 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:20:17.237 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:20:17.237 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 225 ms
+2025-11-23 00:20:17.258 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:20:17.259 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+2025-11-23 00:20:17.273 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Added connection org.postgresql.jdbc.PgConnection@6b061a56
+2025-11-23 00:20:17.273 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+2025-11-23 00:20:17.277 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:20:17.343 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:17.396 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:20:17.400 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7429de72-9e08-44f0-8afe-a27b26aeb323
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:20:17.444 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4141b62d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b3f3ce3, org.springframework.security.web.context.SecurityContextHolderFilter@399c998, org.springframework.security.web.header.HeaderWriterFilter@ca02d55, org.springframework.web.filter.CorsFilter@2d45bdbd, org.springframework.security.web.authentication.logout.LogoutFilter@280ee6af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23b11899, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e76533f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ae881f7, org.springframework.security.web.session.SessionManagementFilter@58726b26, org.springframework.security.web.access.ExceptionTranslationFilter@2c01913b, org.springframework.security.web.access.intercept.AuthorizationFilter@44066b81]
+2025-11-23 00:20:17.482 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:20:17.488 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:20:17.489 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.498 seconds (process running for 2151.237)
+2025-11-23 00:20:17.490 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:20:19.949 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2025-11-23 00:20:19.952 [Thread-79] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:19.953 [Thread-79] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown initiated...
+2025-11-23 00:20:19.955 [Thread-79] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown completed.
+2025-11-23 00:20:20.043 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:20:20.043 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:20:20.043 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:20:20.167 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:20:20.177 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:20:20.223 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:20:20.223 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:20:20.223 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:20:20.237 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:20:20.237 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 192 ms
+2025-11-23 00:20:20.257 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:20:20.258 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Starting...
+2025-11-23 00:20:20.270 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-18 - Added connection org.postgresql.jdbc.PgConnection@66b615be
+2025-11-23 00:20:20.270 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Start completed.
+2025-11-23 00:20:20.274 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:20:20.333 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:20.397 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:20:20.399 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: c0de65ab-2eec-4486-b810-ca0983888e86
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:20:20.430 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10554286, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2898c06a, org.springframework.security.web.context.SecurityContextHolderFilter@24f96321, org.springframework.security.web.header.HeaderWriterFilter@1bf00a78, org.springframework.web.filter.CorsFilter@2bba2598, org.springframework.security.web.authentication.logout.LogoutFilter@7f0ce4f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@762c328e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d9445f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f74b69, org.springframework.security.web.session.SessionManagementFilter@64d3273d, org.springframework.security.web.access.ExceptionTranslationFilter@70144262, org.springframework.security.web.access.intercept.AuthorizationFilter@5749533d]
+2025-11-23 00:20:20.459 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:20:20.464 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:20:20.466 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.447 seconds (process running for 2154.214)
+2025-11-23 00:20:20.467 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:20:29.012 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-11-23 00:20:29.017 [Thread-83] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:29.017 [Thread-83] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown initiated...
+2025-11-23 00:20:29.020 [Thread-83] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown completed.
+2025-11-23 00:20:29.092 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:20:29.093 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:20:29.093 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:20:29.287 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:20:29.304 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:20:29.393 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:20:29.395 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:20:29.395 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:20:29.426 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:20:29.426 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 333 ms
+2025-11-23 00:20:29.454 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:20:29.454 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Starting...
+2025-11-23 00:20:29.474 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-19 - Added connection org.postgresql.jdbc.PgConnection@168270b9
+2025-11-23 00:20:29.474 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Start completed.
+2025-11-23 00:20:29.479 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:20:29.575 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:29.655 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:20:29.659 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7c121aed-1f5d-44b9-9a40-b162aaf5dd08
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:20:29.692 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e3fef81, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@278150a6, org.springframework.security.web.context.SecurityContextHolderFilter@59f92886, org.springframework.security.web.header.HeaderWriterFilter@77d74af0, org.springframework.web.filter.CorsFilter@514a0853, org.springframework.security.web.authentication.logout.LogoutFilter@42b47262, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75f810a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38355423, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a8d7ba8, org.springframework.security.web.session.SessionManagementFilter@48044852, org.springframework.security.web.access.ExceptionTranslationFilter@449d1601, org.springframework.security.web.access.intercept.AuthorizationFilter@3a022dc7]
+2025-11-23 00:20:29.739 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:20:29.746 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:20:29.748 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.682 seconds (process running for 2163.496)
+2025-11-23 00:20:29.749 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:20:35.269 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-11-23 00:20:35.273 [Thread-87] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:35.274 [Thread-87] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Shutdown initiated...
+2025-11-23 00:20:35.275 [Thread-87] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Shutdown completed.
+2025-11-23 00:20:35.349 [restartedMain] INFO  c.a.f.face.recognization.Application - Starting Application using Java 21.0.9 with PID 20880 (C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization\target\classes started by USER in C:\Users\USER\OneDrive\Documents\face.recognization\face.recognization)
+2025-11-23 00:20:35.349 [restartedMain] DEBUG c.a.f.face.recognization.Application - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-23 00:20:35.349 [restartedMain] INFO  c.a.f.face.recognization.Application - The following 1 profile is active: "dev"
+2025-11-23 00:20:35.459 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-23 00:20:35.469 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2025-11-23 00:20:35.527 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-23 00:20:35.528 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-23 00:20:35.528 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-23 00:20:35.539 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-23 00:20:35.539 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 188 ms
+2025-11-23 00:20:35.568 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-23 00:20:35.569 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Starting...
+2025-11-23 00:20:35.582 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-20 - Added connection org.postgresql.jdbc.PgConnection@4532dda3
+2025-11-23 00:20:35.582 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Start completed.
+2025-11-23 00:20:35.585 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-23 00:20:35.654 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-23 00:20:35.716 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-23 00:20:35.720 [restartedMain] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 788f9d8d-e951-44e2-84af-ecdce3bad2e8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-11-23 00:20:35.753 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@18d1f32d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@425e6753, org.springframework.security.web.context.SecurityContextHolderFilter@4c7999f3, org.springframework.security.web.header.HeaderWriterFilter@6b33d596, org.springframework.web.filter.CorsFilter@1d92a89c, org.springframework.security.web.authentication.logout.LogoutFilter@1512a227, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31eb0581, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4401e94f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15630fb2, org.springframework.security.web.session.SessionManagementFilter@7a65623c, org.springframework.security.web.access.ExceptionTranslationFilter@37fc207, org.springframework.security.web.access.intercept.AuthorizationFilter@16d3d541]
+2025-11-23 00:20:35.780 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-11-23 00:20:35.787 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-23 00:20:35.789 [restartedMain] INFO  c.a.f.face.recognization.Application - Started Application in 0.46 seconds (process running for 2169.536)
+2025-11-23 00:20:35.789 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-11-23 00:20:39.070 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-23 00:20:39.070 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-23 00:20:39.071 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-11-23 00:20:39.072 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/face' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-23 11:44:20.234 [HikariPool-20 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-20 - Thread starvation or clock leap detected (housekeeper delta=11h20m24s566ms683µs100ns).
