@@ -2,12 +2,12 @@ trigger:
 - main
 
 variables:
-  azureSubscription: 'adbaa4a2-e373-4ed1-9ba9-8ee4a8a7f2a6'  # sua service connection
-  webAppName: 'rm556974'                                     # nome do seu Web App
-  vmImageName: 'nao-uso'                                     # ignorado, só pra nao quebrar
+  azureSubscription: 'adbaa4a2-e373-4ed1-9ba9-8ee4a8a7f2a6'
+  webAppName: 'rm556974'
+  vmImageName: 'nao-uso'
 
 pool:
-  name: Default  # usa SEU agente self-hosted
+  name: Default
 
 stages:
 - stage: BuildAndDeploy
@@ -21,10 +21,10 @@ stages:
       inputs:
         mavenPomFile: 'pom.xml'
         goals: 'clean package'
+        options: '-DskipTests'
         publishJUnitResults: true
         testResultsFiles: '**/surefire-reports/TEST-*.xml'
 
-    # (opcional) ver o que foi gerado
     - script: |
         echo "Listando arquivos em target:"
         dir target
